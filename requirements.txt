@@ -10,9 +10,7 @@ asttokens==2.4.1
 async-timeout==4.0.3
 attrs==23.2.0
 bitsandbytes==0.43.1
-Brotli @ file:///tmp/abs_ecyw11_7ze/croots/recipe/brotli-split_1659616059936/work
-certifi @ file:///croot/certifi_1707229174982/work/certifi
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+charset-normalizer==2.0.4
 click==8.1.7
 comm==0.2.2
 contourpy==1.2.1
@@ -27,12 +25,12 @@ exceptiongroup==1.2.0
 executing==2.0.1
 fastapi==0.110.1
 ffmpy==0.3.2
-filelock @ file:///croot/filelock_1700591183607/work
+filelock==3.13.1
 fire==0.6.0
 fonttools==4.51.0
 frozenlist==1.4.1
 fsspec==2024.2.0
-gmpy2 @ file:///tmp/build/80754af9/gmpy2_1645455533097/work
+gmpy2==2.1.2
 gradio==4.16.0
 gradio_client==0.8.1
 grpcio==1.62.1
@@ -40,13 +38,13 @@ h11==0.14.0
 httpcore==0.17.3
 httpx==0.24.0
 huggingface-hub==0.22.2
-idna @ file:///croot/idna_1666125576474/work
+idna==3.4
 importlib_metadata==7.1.0
 importlib_resources==6.4.0
 ipykernel==6.29.4
 ipython==8.23.0
 jedi==0.19.1
-Jinja2 @ file:///croot/jinja2_1706733616596/work
+Jinja2==3.1.3
 joblib==1.4.0
 jsonschema==4.21.1
 jsonschema-specifications==2023.12.1
@@ -57,20 +55,20 @@ llava @ git+https://github.com/haotian-liu/LLaVA.git@4e2277a060da264c4f21b364c86
 lmdeploy==0.3.0
 markdown-it-py==3.0.0
 markdown2==2.4.13
-MarkupSafe @ file:///croot/markupsafe_1704205993651/work
+MarkupSafe==2.1.3
 matplotlib==3.8.4
 matplotlib-inline==0.1.6
 mdurl==0.1.2
-mkl-fft @ file:///croot/mkl_fft_1695058164594/work
-mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-fft==1.3.8
+mkl-random==1.2.4
 mkl-service==2.4.0
 mmengine-lite==0.10.3
-mpmath @ file:///croot/mpmath_1690848262763/work
+mpmath==1.3.0
 multidict==6.0.5
 multiprocess==0.70.16
 nest-asyncio==1.6.0
-networkx @ file:///croot/networkx_1690561992265/work
-numpy @ file:///croot/numpy_and_numpy_base_1708638617955/work/dist/numpy-1.26.4-cp310-cp310-linux_x86_64.whl#sha256=d8cd837ed43e87f77e6efaa08e8de927ca030a1c9c5d04624432d6fb9a74a5ee
+networkx==3.1
+numpy==1.26.4
 nvidia-cublas-cu12==12.4.5.8
 nvidia-cuda-runtime-cu12==12.4.127
 nvidia-curand-cu12==10.3.5.147
@@ -81,7 +79,7 @@ pandas==2.2.2
 parso==0.8.4
 peft==0.9.0
 pexpect==4.9.0
-pillow @ file:///croot/pillow_1707233021655/work
+pillow==10.2.0
 platformdirs==4.2.0
 prompt-toolkit==3.0.43
 protobuf==4.25.3
@@ -97,16 +95,16 @@ pydub==0.25.1
 Pygments==2.17.2
 pynvml==11.5.0
 pyparsing==3.1.2
-PySocks @ file:///home/builder/ci_310/pysocks_1640793678128/work
+PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-multipart==0.0.9
 python-rapidjson==1.16
 pytz==2024.1
-PyYAML @ file:///croot/pyyaml_1698096049011/work
+PyYAML==6.0.1
 pyzmq==25.1.2
 referencing==0.34.0
 regex==2023.12.25
-requests @ file:///croot/requests_1707355572290/work
+requests==2.31.0
 rich==13.7.1
 rpds-py==0.18.0
 ruff==0.3.7
@@ -122,7 +120,7 @@ sniffio==1.3.1
 stack-data==0.6.3
 starlette==0.37.2
 svgwrite==1.4.3
-sympy @ file:///croot/sympy_1701397643339/work
+sympy==1.12
 termcolor==2.4.0
 threadpoolctl==3.4.0
 tiktoken==0.6.0
@@ -142,9 +140,9 @@ transformers-stream-generator==0.0.5
 triton==2.1.0
 tritonclient==2.44.0
 typer==0.12.3
-typing_extensions @ file:///croot/typing_extensions_1705599297034/work
+typing_extensions==4.9.0
 tzdata==2024.1
-urllib3 @ file:///croot/urllib3_1707770551213/work
+urllib3==2.1.0
 uvicorn==0.29.0
 wavedrom==2.0.3.post3
 wcwidth==0.2.13
