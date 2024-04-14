@@ -70,7 +70,7 @@ nest-asyncio==1.6.0
 networkx==3.1
 numpy==1.26.4
 nvidia-cublas-cu12==12.4.5.8
-nvidia-cuda-runtime-cu12==12.4.127
+nvidia-cuda-runtime-cu12
 nvidia-curand-cu12==10.3.5.147
 nvidia-nccl-cu12==2.21.5
 orjson==3.10.0
