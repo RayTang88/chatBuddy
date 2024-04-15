@@ -11,7 +11,6 @@ backend_config = TurbomindEngineConfig(session_len=8192, model_fomat='awq') # �
 
 pipe = pipeline(base_path, backend_config=backend_config)
 
-
 def model(text):
     if text is None:
         return [(text, "请输入你的问题。")]
